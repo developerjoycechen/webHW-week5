@@ -1,0 +1,36 @@
+.nav {
+    position: fixed;
+    min-width: 296px;
+    min-height: 100vh;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+.logo{
+    padding-left: 32px;
+}
+
+.user{
+    padding-left: 32px;
+}
+
+.menu-item{
+    padding: 12px 32px;
+    position: relative;
+}
+.menu-item:hover,.menu-item:active{
+    color: $success;
+}
+
+.menu-item:hover::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 4px;
+    height: 32px;
+    border-left: 4px solid $success;
+}
+
+
+
+

@@ -1,0 +1,70 @@
+// *{
+//   outline: 1px solid #ff0000;
+// }
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+  }
+img{
+   max-width: 100%;
+   height: auto;
+   object-fit:cover;
+}
+a, a:hover, a:visited, a:link, a:active {
+  color:$gray-900;
+  text-decoration:none;
+  outline: none;
+  // a標籤的四種狀態都和本身顏色保持一致
+}
+
+
+.bg-gray-100{
+    background-color: $gray-100;
+}
+.text-gray-600{
+  color: $gray-600;
+}
+.text-gray-900{
+    color: $gray-900;
+}
+.text-success{
+  color: $success;
+}
+
+.fs-h1{
+  font-size:$fs-h1;
+  // 24px
+}
+.fs-p1{
+  font-size:$fs-p1;
+  // 16px
+}
+.fs-p2{
+  font-size:$fs-p2;
+  // 14px
+}
+.fs-p3{
+  font-size:$fs-p3;
+  // 12px
+}
+
+// 字型
+.font-mono{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+    margin-left: 296px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+.pro-pic{
+  width: 40px;
+  height: 40px;
+}
+
+.header{
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
